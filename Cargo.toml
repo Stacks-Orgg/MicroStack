@@ -1,8 +1,11 @@
 [workspace]
 resolver = "2"
 members = [
-    "contracts/vault",
-    "contracts/strategy",
+    "contracts/microlending",
+    "contracts/lending_pool",
+    "contracts/collateral_liquidation",
+    "contracts/interest_strategy",
+    "contracts/oracle_interface",
 ]
 
 [workspace.dependencies]
